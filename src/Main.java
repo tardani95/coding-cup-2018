@@ -72,5 +72,8 @@ public class Main {
                 System.out.println();
             }
         }*/
+
+
+        //TODO - implement such an algorithm to connect all nodes with min cost
     }
 }
