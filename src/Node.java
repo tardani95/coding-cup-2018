@@ -1,6 +1,10 @@
-import java.util.List;
+import java.util.*;
 
 public class Node {
-    public String name;
-    public List<Edge> connections;
+    public int name;
+    public List<Edge> connections = new ArrayList<>();
+
+    public Node(int name) {
+        this.name = name;
+    }
 }
