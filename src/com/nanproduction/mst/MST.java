@@ -52,9 +52,9 @@ public class MST {
     public static Collection<Edge> prims(Graph g, int start){
     	Vertex startVertex = new Vertex(start);
     	Vertex currVertex = startVertex;
-    	Collection<Edge> finalEdges = new ArrayList();
+    	Collection<Edge> finalEdges = new ArrayList<Edge>();
     	Collection<Edge> edgeList = g.getEdgeList();
-    	ArrayList<Vertex> visited = new ArrayList();
+    	ArrayList<Vertex> visited = new ArrayList<Vertex>();
     	visited.add(startVertex);
     	PriorityQueue<Edge> pq = new PriorityQueue<Edge>();
     	Map<Vertex, Integer> map = g.getAdjacencies(startVertex);
