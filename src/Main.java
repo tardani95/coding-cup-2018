@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
-        Graph graph = new Graph();
 
         File sText = new File("Stext.txt");
         File wText = new File("Wtext.txt");
         Scanner inputS = new Scanner(sText);
         Scanner inputW = new Scanner(wText);
+        Graph graph = new Graph(/*wText, sText*/);
 
         // init variables
         int count = 0;
