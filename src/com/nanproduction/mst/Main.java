@@ -27,8 +27,7 @@ public class Main {
                 minCost += e.getWeight();
             }
         }
-        System.out.println("Min cost: "+minCost);
+        System.out.println("Result - Min cost: "+minCost);
 
-        //TODO - implement such an algorithm to connect all nodes with min cost
     }
 }
