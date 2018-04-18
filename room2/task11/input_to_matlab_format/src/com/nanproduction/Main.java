@@ -21,16 +21,16 @@ public class Main {
             array = line.split(" ");
             if (line.contains("oae")) {
                 //G = oae(G, v1,v2);
-                writer.println("G = oae(G," + array[0] + "," + array[2] + ");");
+                writer.println("G = oae(G," + Integer.parseInt(array[0]) + "," + Integer.parseInt(array[2]) + ");");
             }
             if (line.contains("oat")) {
-                writer.println("G = oat(G," + array[0] + "," + array[2] + ");");
+                writer.println("G = oat(G," + Integer.parseInt(array[0]) + "," + Integer.parseInt(array[2]) + ");");
             }
             if (line.contains("kem")) {
-                writer.println("G = kem(G," + array[0] + "," + array[2] + ");");
+                writer.println("G = kem(G," + Integer.parseInt(array[0])+ "," + Integer.parseInt(array[2]) + ");");
             }
             if (line.contains("eet")) {
-                writer.println("G = eet(G," + array[0] + "," + array[1] + ");");
+                writer.println("G = eet(G," + Integer.parseInt(array[0]) + "," + Integer.parseInt(array[1]) + ");");
             }
         }
         writer.close();
