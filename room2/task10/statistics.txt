@@ -1,0 +1,5 @@
+1478 ptp connections
+415193 pn connections
+max cost in graph: 227
+1001000 integers read
+
